@@ -1,4 +1,4 @@
-package com.example.newtasknews;
+package com.example.sit708_task_51c_newsapp;
 
 import android.os.Bundle;
 import android.view.View;
@@ -84,9 +84,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     /**
-            * Populates the news ArrayList with the given index's news information.
-            *
-            * @param num The index of the news item to add.
+     * Populates the news ArrayList with the given index's news information.
+     *
+     * @param num The index of the news item to add.
      */
     public void populateNews(int num) {
         news.add(new NewsModel(headlines[num], newsContent[num], newsImages[num], true));

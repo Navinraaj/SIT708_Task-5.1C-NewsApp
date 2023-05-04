@@ -1,4 +1,4 @@
-package com.example.newtasknews;
+package com.example.sit708_task_51c_newsapp;
 
 import android.content.Context;
 import android.view.LayoutInflater;
